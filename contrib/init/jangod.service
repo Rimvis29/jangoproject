@@ -1,0 +1,22 @@
+[Unit]
+Description=Jango's distributed currency daemon
+After=network.target
+
+[Service]
+User=jangocore
+Group=jangocore
+
+Type=forking
+PIDFile=/var/lib/jangod/jangod.pid
+ExecStart=/usr/bin/jangod -daemon -pid=/var/lib/jangod/jangod.pid \
+-conf=/etc/jangocore/jango.conf -datadir=/var/lib/jangod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

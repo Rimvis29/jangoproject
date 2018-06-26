@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/jango_bg.qm</file>
+        <file alias="de">locale/jango_de.qm</file>
+        <file alias="en">locale/jango_en.qm</file>
+        <file alias="es">locale/jango_es.qm</file>
+        <file alias="fi">locale/jango_fi.qm</file>
+        <file alias="fr">locale/jango_fr.qm</file>
+        <file alias="it">locale/jango_it.qm</file>
+        <file alias="ja">locale/jango_ja.qm</file>
+        <file alias="pl">locale/jango_pl.qm</file>
+        <file alias="pt">locale/jango_pt.qm</file>
+        <file alias="ru">locale/jango_ru.qm</file>
+        <file alias="sk">locale/jango_sk.qm</file>
+        <file alias="sv">locale/jango_sv.qm</file>
+        <file alias="vi">locale/jango_vi.qm</file>
+        <file alias="zh_CN">locale/jango_zh_CN.qm</file>
+        <file alias="zh_TW">locale/jango_zh_TW.qm</file>
+    </qresource>
+</RCC>

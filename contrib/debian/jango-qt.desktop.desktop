@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Jango
+Comment=Jango P2P Cryptocurrency
+Exec=jango-qt %u
+Terminal=false
+Type=Application
+Icon=jango128
+MimeType=x-scheme-handler/jango;
+Categories=Office;Finance;
+Name[en_US]=jango-qt.desktop.desktop
